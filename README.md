@@ -15,9 +15,7 @@ Install either one or both. With only Manual scan, every circle scan is by hand.
 
 ## Read this before installing a scanner
 
-Both scanners read LinkedIn pages with **your own account**, in Chrome on your computer. LinkedIn's User Agreement doesn't allow automated tools, and **LinkedIn can restrict accounts that use them**. This has happened to the author's own account, twice:
-- after 373 search pages in a day;
-- after 305 pages loaded a few seconds apart.
+Both scanners read LinkedIn pages with **your own account**, in Chrome on your computer. LinkedIn's User Agreement doesn't allow automated tools, and **LinkedIn can restrict accounts that use them**. Heavy days and fast paging are what get noticed: a few hundred search pages in a day, or pages loaded seconds apart.
 
 The scanners keep a daily budget and stop the moment LinkedIn pushes back. Even with every limit lifted, Dev mode stops at 250 search pages a day. Use them slowly, on an account you're prepared to have restricted.
 
