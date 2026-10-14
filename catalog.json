@@ -1,0 +1,36 @@
+{
+  "format": "sixgree.plugin-catalog",
+  "format_version": 1,
+  "plugins": [
+    {
+      "id": "auto-scan",
+      "name": "Auto scan",
+      "version": "1.0.0",
+      "about": "The scanner, reading by itself: circle scans that turn the pages on their own, Auto scan, Auto connect and Dev mode.",
+      "risk": "It runs your own LinkedIn account automatically, in Chrome on this computer. LinkedIn’s User Agreement doesn’t allow automated tools, and LinkedIn may restrict accounts that use them.",
+      "kind": "scanner",
+      "unlocks": [
+        "auto"
+      ],
+      "sixgree": ">=1.2.8",
+      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/auto-scan-1.0.0.sgplugin",
+      "sha256": "762030a7e5f0b5a820153b35db0121f722b715d51cbe61b7670179d1c4c0325c",
+      "size": 118100
+    },
+    {
+      "id": "manual-scan",
+      "name": "Manual scan",
+      "version": "1.0.0",
+      "about": "The scanner, by hand: you scroll and click Next in its Chrome window, and it reads each page as you go, with chimes.",
+      "risk": "It reads LinkedIn pages with your own account, in Chrome on this computer, as you page through them. LinkedIn’s User Agreement doesn’t allow automated tools, and LinkedIn may restrict accounts that use them.",
+      "kind": "scanner",
+      "unlocks": [
+        "manual"
+      ],
+      "sixgree": ">=1.2.8",
+      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/manual-scan-1.0.0.sgplugin",
+      "sha256": "573b4bc4bc6449196900d48663317e67833083e2c94a06a058f29c5f17a79648",
+      "size": 118119
+    }
+  ]
+}
