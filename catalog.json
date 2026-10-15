@@ -5,32 +5,32 @@
     {
       "id": "auto-scan",
       "name": "Auto scan",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "about": "The scanner, reading by itself: circle scans that turn the pages on their own, Auto scan, Auto connect and Dev mode.",
       "risk": "It runs your own LinkedIn account automatically, in Chrome on this computer. LinkedIn’s User Agreement doesn’t allow automated tools, and LinkedIn may restrict accounts that use them.",
       "kind": "scanner",
       "unlocks": [
         "auto"
       ],
-      "sixgree": ">=2.1.0",
-      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/auto-scan-1.0.3.sgplugin",
-      "sha256": "3881b4e37010aad867b8812f8eecc4f470942b702a36cf254aafc700a5edc92c",
-      "size": 125084
+      "sixgree": ">=2.3.0",
+      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/auto-scan-1.0.4.sgplugin",
+      "sha256": "c1cc16d301580fbd6594a96695c91b894e7b6f50f21ba18525e7b0ddd60a035a",
+      "size": 126831
     },
     {
       "id": "manual-scan",
       "name": "Manual scan",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "about": "The scanner, by hand: you scroll and click Next in its Chrome window, and it reads each page as you go, with chimes.",
       "risk": "It reads LinkedIn pages with your own account, in Chrome on this computer, as you page through them. LinkedIn’s User Agreement doesn’t allow automated tools, and LinkedIn may restrict accounts that use them.",
       "kind": "scanner",
       "unlocks": [
         "manual"
       ],
-      "sixgree": ">=2.1.0",
-      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/manual-scan-1.0.3.sgplugin",
-      "sha256": "fd50798c841e97e236478be99ff1a99ba5b52fc6c5fae1f591153a4b702755be",
-      "size": 125102
+      "sixgree": ">=2.3.0",
+      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/manual-scan-1.0.4.sgplugin",
+      "sha256": "bdad33f7115a80885048a877f63f7e5af4f54ec0cc39c8d766d39af8c169e71b",
+      "size": 126849
     }
   ]
 }
