@@ -5,32 +5,47 @@
     {
       "id": "auto-scan",
       "name": "Auto scan",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "about": "The scanner, reading by itself: circle scans that turn the pages on their own, Auto scan, Auto connect and Dev mode.",
       "risk": "It runs your own LinkedIn account automatically, in Chrome on this computer. LinkedIn’s User Agreement doesn’t allow automated tools, and LinkedIn may restrict accounts that use them.",
       "kind": "scanner",
       "unlocks": [
         "auto"
       ],
-      "sixgree": ">=2.4.0",
-      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/auto-scan-1.0.5.sgplugin",
-      "sha256": "2e8cb848d18a7e39bf4001677a9cfcf0def63aa510cec1b2b48af6971679f4ba",
-      "size": 130350
+      "sixgree": ">=2.5.0",
+      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/auto-scan-1.0.6.sgplugin",
+      "sha256": "aaf81e0a2d3ddfe888fcee404b7082ae9280e1ad49252319ce740c979b35a97e",
+      "size": 134382
     },
     {
       "id": "manual-scan",
       "name": "Manual scan",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "about": "The scanner, by hand: you scroll and click Next in its Chrome window, and it reads each page as you go, with chimes.",
       "risk": "It reads LinkedIn pages with your own account, in Chrome on this computer, as you page through them. LinkedIn’s User Agreement doesn’t allow automated tools, and LinkedIn may restrict accounts that use them.",
       "kind": "scanner",
       "unlocks": [
         "manual"
       ],
-      "sixgree": ">=2.4.0",
-      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/manual-scan-1.0.5.sgplugin",
-      "sha256": "493b29a6381969cf18497fcf815698a1a5c0fa56c980c3785f75651420b8fa31",
-      "size": 130368
+      "sixgree": ">=2.5.0",
+      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/manual-scan-1.0.6.sgplugin",
+      "sha256": "cda8a62b7db39bb28d35cfbb43ff58c092816c82128764e1ac62ce35da537478",
+      "size": 134400
+    },
+    {
+      "id": "linkedin-browser",
+      "name": "LinkedIn browser",
+      "version": "1.0.0",
+      "about": "LinkedIn inside Sixgree’s window, for your own browsing, with your network beside it: find people by name, company or place, open their profile, and see what Sixgree knows about whoever is on screen. In the desktop app.",
+      "risk": "It is your own LinkedIn account, browsed by you as you would anywhere: Sixgree reads nothing on its own and clicks nothing. A profile you open from the people list counts as one of the day’s profile views, like Outlink’s.",
+      "kind": "feature",
+      "unlocks": [
+        "linkedin-browser"
+      ],
+      "sixgree": ">=2.5.0",
+      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/linkedin-browser-1.0.0.sgplugin",
+      "sha256": "37ab40c7388354b29b44851b19f0afcf8d0c4a89cd9641e4170984a567e05e11",
+      "size": 1480
     }
   ]
 }
