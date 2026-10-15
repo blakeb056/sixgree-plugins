@@ -1,0 +1,33 @@
+# Posts to the Sixgree Discord's #releases channel when a plugin package or the catalog changes.
+# The webhook URL is the repo secret DISCORD_RELEASES_WEBHOOK; it is never in the repo.
+name: Discord plugin post
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "catalog.json"
+      - "packages/**"
+
+permissions:
+  contents: read
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Post to Discord
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_RELEASES_WEBHOOK }}
+          SHA: ${{ github.sha }}
+          REPO: ${{ github.repository }}
+        run: |
+          [ -n "$WEBHOOK" ] || { echo "no webhook secret; skipping"; exit 0; }
+          list="$(jq -r '.plugins[] | "• \(.name) \(.version)"' catalog.json)"
+          jq -n --arg desc "$list" --arg url "https://github.com/${REPO}/commit/${SHA}" \
+            '{username:"Sixgree Plugins", embeds:[{title:"Plugin list updated", url:$url,
+              description:("Available now from Settings → Plugins:\n" + $desc), color:16766720}]}' \
+            | curl -fsS -H 'Content-Type: application/json' -d @- "$WEBHOOK"
