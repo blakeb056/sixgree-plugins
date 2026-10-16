@@ -7,7 +7,7 @@
       "name": "Auto scan",
       "version": "1.0.6",
       "about": "The scanner, reading by itself: circle scans that turn the pages on their own, Auto scan, Auto connect and Dev mode.",
-      "risk": "It runs your own LinkedIn account automatically, in Chrome on this computer. LinkedIn’s User Agreement doesn’t allow automated tools, and LinkedIn may restrict accounts that use them.",
+      "risk": "It runs your own LinkedIn account automatically, in Chrome on this computer. LinkedIn\u2019s User Agreement doesn\u2019t allow automated tools, and LinkedIn may restrict accounts that use them.",
       "kind": "scanner",
       "unlocks": [
         "auto"
@@ -22,7 +22,7 @@
       "name": "Manual scan",
       "version": "1.0.6",
       "about": "The scanner, by hand: you scroll and click Next in its Chrome window, and it reads each page as you go, with chimes.",
-      "risk": "It reads LinkedIn pages with your own account, in Chrome on this computer, as you page through them. LinkedIn’s User Agreement doesn’t allow automated tools, and LinkedIn may restrict accounts that use them.",
+      "risk": "It reads LinkedIn pages with your own account, in Chrome on this computer, as you page through them. LinkedIn\u2019s User Agreement doesn\u2019t allow automated tools, and LinkedIn may restrict accounts that use them.",
       "kind": "scanner",
       "unlocks": [
         "manual"
@@ -35,17 +35,17 @@
     {
       "id": "linkedin-browser",
       "name": "LinkedIn browser",
-      "version": "1.0.0",
-      "about": "LinkedIn inside Sixgree’s window, for your own browsing, with your network beside it: find people by name, company or place, open their profile, and see what Sixgree knows about whoever is on screen. In the desktop app.",
-      "risk": "It is your own LinkedIn account, browsed by you as you would anywhere: Sixgree reads nothing on its own and clicks nothing. A profile you open from the people list counts as one of the day’s profile views, like Outlink’s.",
+      "version": "1.0.1",
+      "about": "A LinkedIn tab inside Sixgree\u2019s window: its Feed, Messaging, Notifications and Jobs buttons open that part of LinkedIn, live, for your own browsing, with Back and Forward. In the desktop app.",
+      "risk": "It is your own LinkedIn account, browsed by you as you would anywhere: Sixgree reads nothing on its own and clicks nothing, and browsing the tab is not counted. A profile you open from Sixgree counts as one of the day\u2019s profile views, as it does without this plugin.",
       "kind": "feature",
       "unlocks": [
         "linkedin-browser"
       ],
-      "sixgree": ">=2.5.0",
-      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/linkedin-browser-1.0.0.sgplugin",
-      "sha256": "37ab40c7388354b29b44851b19f0afcf8d0c4a89cd9641e4170984a567e05e11",
-      "size": 1480
+      "sixgree": ">=2.5.1",
+      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/linkedin-browser-1.0.1.sgplugin",
+      "sha256": "a8b35d9c1ac61e3e590b306e8d3d061e27fb3f68c66ef456dd58ac6ec58800bf",
+      "size": 1391
     }
   ]
 }
