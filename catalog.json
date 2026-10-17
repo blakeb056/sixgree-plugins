@@ -5,32 +5,32 @@
     {
       "id": "auto-scan",
       "name": "Auto scan",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "about": "The scanner, reading by itself: circle scans that turn the pages on their own, Auto scan, Auto connect and Dev mode.",
       "risk": "It runs your own LinkedIn account automatically, in Chrome on this computer. LinkedIn\u2019s User Agreement doesn\u2019t allow automated tools, and LinkedIn may restrict accounts that use them.",
       "kind": "scanner",
       "unlocks": [
         "auto"
       ],
-      "sixgree": ">=2.6.0",
-      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/auto-scan-1.0.9.sgplugin",
-      "sha256": "17c0df53cba49f22a8c6383a402f0a3f490910df17184bbe1e3d4c7f3e1d5adc",
-      "size": 140383
+      "sixgree": ">=2.7.0",
+      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/auto-scan-1.0.10.sgplugin",
+      "sha256": "444f97d5042117e523ee5f5fc5bb8b84436cace501acb1027b4575df8d2ba6f3",
+      "size": 141226
     },
     {
       "id": "manual-scan",
       "name": "Manual scan",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "about": "The scanner, by hand: you scroll and click Next in its Chrome window, and it reads each page as you go, with chimes.",
       "risk": "It reads LinkedIn pages with your own account, in Chrome on this computer, as you page through them. LinkedIn\u2019s User Agreement doesn\u2019t allow automated tools, and LinkedIn may restrict accounts that use them.",
       "kind": "scanner",
       "unlocks": [
         "manual"
       ],
-      "sixgree": ">=2.6.0",
-      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/manual-scan-1.0.9.sgplugin",
-      "sha256": "801014e4f3dd04cc47854418bedaa9daab8311ec2c6bf75a0f59aa1002222483",
-      "size": 140401
+      "sixgree": ">=2.7.0",
+      "url": "https://raw.githubusercontent.com/blakeb056/sixgree-plugins/main/packages/manual-scan-1.0.10.sgplugin",
+      "sha256": "6421c447f0f05603ba229cfa8c295b3593e673223dce93e24fb2e407b888b6ec",
+      "size": 141245
     },
     {
       "id": "linkedin-browser",
